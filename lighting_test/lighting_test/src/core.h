@@ -1,7 +1,6 @@
 #pragma once
 
 #include <inttypes.h>
-#include <bullet/btBulletDynamicsCommon.h>
 
 struct Vec2
 {
@@ -21,8 +20,7 @@ struct Vec4
 struct Transform
 {
 	Vec3 location;
-	btQuaternion rotation;
-	Vec3 eulerRotation;
+	Vec3 rotation;
 	Vec3 scale;
 };
 
